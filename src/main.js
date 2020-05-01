@@ -32,7 +32,7 @@ Vue.prototype.$X = {
   Cookies
 }
 // i18n实例
-const i18nInstance = i18n(Vue, 'zh-CN')
+const i18nInstance = i18n(Vue, 'en-US')
 
 // 注册全局组件
 Vue.use(components)
