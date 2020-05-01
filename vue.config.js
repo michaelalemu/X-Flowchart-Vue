@@ -6,15 +6,14 @@
  * 文档：https://cli.vuejs.org/zh/config/
  */
 
-const webpack = require('webpack')
+const webpack = require("webpack");
 
 module.exports = {
   // 部署应用包时的基本URL，置空使用相对路径
-  publicPath: '/X-Flowchart-Vue/',
   // 打包输出目录
-  outputDir: 'docs',
+  outputDir: "docs",
   // 静态资源目录
-  assetsDir: '',
+  assetsDir: "",
   productionSourceMap: false,
   // 开发环境
   // devServer: {
@@ -40,7 +39,7 @@ module.exports = {
       // path: `${root}/public/assets/`,
       // publicPath: '/lead/assets',
       // filename: `${fileName()}.js`,
-      chunkFilename: '[name].[chunkhash].js'
+      chunkFilename: "[name].[chunkhash].js"
     }
   }
-}
+};
